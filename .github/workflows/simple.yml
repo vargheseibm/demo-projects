@@ -13,7 +13,7 @@ jobs:
           echo "node version is diplayed"
       - name: python command 
         run: | 
-          import platfrom
-          print(platfrom.processor())
+          import platform
+          print(platform.processor())
         shell: python
         
