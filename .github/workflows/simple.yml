@@ -11,4 +11,9 @@ jobs:
           node -v
           npm -v
           echo "node version is diplayed"
+      - name: python command 
+        run: | 
+          import platfrom
+          print(platfrom.processor())
+        shell: python
         
