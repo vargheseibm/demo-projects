@@ -10,4 +10,5 @@ jobs:
         run: |
           node -v
           npm -v
+          echo "node version is diplayed"
         
