@@ -11,4 +11,13 @@ jobs:
           who-to-greet: Vargheese
       - name: Log Greeting Time
         run: echo "${{ steps.greet.outputs.time }}"
+      - name: list files
+        run: |
+           pwd
+           ls -ltr 
+           echo $GITHUB_SHA
+           echo $GITHUB_REPOSITORY
+           echo $GITHUB_WORKSPACE
+           echo "${{ github.token }}"
+
     
